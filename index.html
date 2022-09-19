@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/1.png" alt="" id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto" >
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Features
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Headers</a></li>
+                            <li><a class="dropdown-item" href="#">Single Top Style</a></li>
+                            <li><a class="dropdown-item" href="#">Single Article Side Bar</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Travel</a></li>
+                            <li><a class="dropdown-item" href="#">Nature</a></li>
+                            <li><a class="dropdown-item" href="#">Life Style</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Buy Now</a>
+                    </li>
+                </ul>
+                <button class="btn btn-outline-success" type="submit">Log In</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+<p id="pp">
+    Est.2002
+</p>
+<p id="headtext">
+    Stories are the thing we need most in the world
+</p>
+<div id="carousel">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/2.jpg" class="d-block w-100" id="img1" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Effel Tower</h5>
+                    <p>Go France/Paris</p>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/5.jpg" class="d-block w-100" id="img2" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Milad Tower</h5>
+                    <p>Go Iran/Tehran</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/3.jpg" class="d-block w-100" id="img3" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pyramids Of Giza</h5>
+                    <p>Go To Egypt</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-4">
+        <img src="img/44.jpg" alt="" id="bodyimg1">
+    </div>
+    <div class="col-4">
+        <img src="img/7.jpg" alt="" id="bodyimg2">
+    </div>
+    <div class="col-4">
+        <img src="img/8.jpg" alt="" id="bodyimg3">
+    </div>
+</div>
+<div>
+    <img src="img/9.jpg" alt="" id="happygirl">
+</div>
+<div class="row">
+    <div class="col-4">
+        <img src="img/10.jpeg" alt="">
+    </div>
+    <div class="col-4">
+
+    </div>
+    <div class="col-4">
+
+    </div>
+</div>
+<script src="js.js"></script>
+</body>
+</html>
